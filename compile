@@ -1,0 +1,9 @@
+
+gcc fman.c -o fman
+gcc getKmer.c -o getKmer
+gcc refsim.c -o refsim
+
+mkdir bin
+mv fman bin/
+mv getKmer bin/
+mv refsim bin/
