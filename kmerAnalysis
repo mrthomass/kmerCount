@@ -1,0 +1,13 @@
+if [ $# -eq 0 ]
+then
+echo "no args supplied"
+exit 1
+fi
+
+./getKmer $1 temp.thom $2
+
+##python3 dbtemp.db temp.thom opfile.csv
+
+
+##rm dbtemp.db 
+##rm temp.thom
